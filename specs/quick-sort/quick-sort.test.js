@@ -26,7 +26,6 @@ function quickSort(nums) {
 
     const leftSorted = quickSort(left);
     const rightSorted = quickSort(right);
-
     return leftSorted.concat(center, rightSorted);
 }
 
