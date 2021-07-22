@@ -16,7 +16,6 @@ const mergeSort = (nums) => {
 };
 
 const merge = (sortedArray1, sortedArray2) => {
-    console.log(sortedArray1, sortedArray2);
     const result = [];
     let pointer1 = 0;
     let pointer2 = 0;
