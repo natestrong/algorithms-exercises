@@ -12,7 +12,6 @@
   
   And you put xdescribe instead of describe if you want to suspend running the unit tests.  
 */
-
 function insertionSort(nums) {
     let sortedIndex = 0;
     while (sortedIndex < nums.length - 1) {
